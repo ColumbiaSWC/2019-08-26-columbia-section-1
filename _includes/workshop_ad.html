@@ -9,12 +9,14 @@
         <div class="col-md-6">
           <p>{{page.humandate}}</p>
           <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
+          <p>{% if page.address %}{{page.address}}{% endif %}</p>
+	  
         </div>
         <div class="col-md-6">
           <p>
           <strong>Instructors:</strong>
           {% if page.instructor %}
-          {{page.instructor | join: ', ' %}}
+          {{page.instructor | join: ',<br> ' %}}
           {% else %}
           to be announced.
           {% endif %}
