@@ -398,6 +398,12 @@ Below you'll find the schedule, syllabus, and setup instructions to go over befo
       </p>
     </div>
   </div>
+  <p>
+  You will also need to download the <a href="{{site.swc_pages}}/shell-novice/data/data-shell.zip">data-shell.zip</a>
+  file that contains sample data that is used in the lesson.
+
+  See the shell <a href="{{site.swc_pages}}/shell-novice/setup.html">Setup</a> for instructions.
+  </p>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
@@ -608,6 +614,14 @@ Below you'll find the schedule, syllabus, and setup instructions to go over befo
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
+  </p>
+  
+  <p>
+  You will also need to download the 
+  <a href="{{site.swc_pages}}/python-novice-gapminder/files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a>
+  file that contains sample data that is used in the lesson.
+
+  See the Python <a href="{{site.swc_pages}}/python-novice-gapminder/setup/">Setup</a> for instructions.
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
