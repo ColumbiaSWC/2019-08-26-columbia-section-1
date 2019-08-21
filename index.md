@@ -615,7 +615,7 @@ Below you'll find the schedule, syllabus, and setup instructions to go over befo
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
-  
+{% endcomment %}
   <p>
   You will also need to download the 
   <a href="{{site.swc_pages}}/python-novice-gapminder/files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a>
@@ -623,5 +623,5 @@ Below you'll find the schedule, syllabus, and setup instructions to go over befo
 
   See the Python <a href="{{site.swc_pages}}/python-novice-gapminder/setup/">Setup</a> for instructions.
   </p>
-{% endcomment %}
+
 </div> {% comment %} End of 'Python' section. {% endcomment %}
